@@ -1,6 +1,6 @@
 # EcommerceNLP
 
-Simple NLP APIs to classify ecommerce information.
+Simple NLP APIs to classify ecommerces.
 
 Currently supported:
 * ecommerce-detection
@@ -43,7 +43,7 @@ POST params:
 
 - `content` - text in English
 
-Results:
+Results JSON:
 - `score` - score from 0 to 100
 
 ### ecommerce-category
@@ -56,5 +56,5 @@ POST params:
 
 - `content` - text in English
 
-Results:
-- `category` - one of the Ecommerce categories
+Results JSON:
+- `category` - one of the Ecommerce's categories
