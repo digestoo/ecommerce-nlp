@@ -44,7 +44,7 @@ POST params:
 - `content` - text in English
 
 Results JSON:
-- `score` - score from 0 to 100
+- `score` - score from 0 to 100 showing probability that text is describing online-store
 
 ### ecommerce-category
 
